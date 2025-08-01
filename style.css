@@ -457,19 +457,19 @@ footer li {
     
   .mynavbar .navbar-brand, .mynavbar .offcanvas-title {
   font-family: 'Sacramento', cursive;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
-    .offcanvas-header .offcanvas-title {
-  white-space: nowrap;
+  .offcanvas-title {
+  max-width: 200px;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 70%;
+  white-space: nowrap;
 }
 
     .mynavbar .offcanvas {
-  width: 80vw !important;
+  width: 45vw !important;
   max-width: 320px;
 }
     
