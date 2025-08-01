@@ -460,6 +460,14 @@ footer li {
   font-size: 2rem;
   font-weight: bold;
 }
+
+    .offcanvas-header .offcanvas-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 70%;
+}
+
     .mynavbar .offcanvas {
   width: 35vw !important;
   max-width: 320px;
