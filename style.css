@@ -454,28 +454,11 @@ footer li {
     margin: 2px;
     font-size: 1rem;
   }
-  .mynavbar .offcanvas {
-    width: 35vh;
-  }
+    
   .mynavbar .navbar-brand, .mynavbar .offcanvas-title {
   font-family: 'Sacramento', cursive;
   font-size: 2rem;
   font-weight: bold;
-}
-
-  .sidebar {
-   position: fixed;
-   top: 0;
-   right: 0;
-   width: 250px;
-   height: 100%;
-   backround-color: white;
-   transition: transform 0.3s ease;
-   transform: translateX(100%);
-  }
-
-.sidebar.active {
-    transforn: translateX(0);
 }
     
   .timeline li .timeline-image {
@@ -496,4 +479,8 @@ footer li {
   width: 200px;
   height: auto;
 }
+}
+.mynavbar .offcanvas {
+  width: 80vw !important;
+  max-width: 320px;
 }
