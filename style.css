@@ -460,6 +460,10 @@ footer li {
   font-size: 2rem;
   font-weight: bold;
 }
+    .mynavbar .offcanvas {
+  width: 80vw !important;
+  max-width: 320px;
+}
     
   .timeline li .timeline-image {
     width: 80px;
@@ -479,8 +483,4 @@ footer li {
   width: 200px;
   height: auto;
 }
-}
-.mynavbar .offcanvas {
-  width: 80vw !important;
-  max-width: 320px;
 }
